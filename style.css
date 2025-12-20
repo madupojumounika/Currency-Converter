@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-image: url('currencyImg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.header {
+    display: flex;             
+    align-items: center;       
+    justify-content: center;  
+    padding: 10px 20px;
+    position: absolute;        
+    top: 10px;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: hwb(58 8% 4%);
+    margin: 0;
+}
+
+.header .logo {
+    width: 60px;                
+    height: 60px;
+    border-radius: 50%;        
+    object-fit: cover;          
+    margin-left: 15px;          
+    border: 2px solid #333;    
+}
+
+.container{
+    background-color:white ;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 40vh;
+}
+form{
+    margin: 2rem 0 1rem 0;
+}
+form select,
+button,
+input{
+    width: 100%;
+    border: none;
+    outline:none ;
+    border-radius: 0.75rem;
+}
+form input{
+    border:1px solid lightgrey ;
+    font-size:1rem ;
+    height: 2rem;
+    padding-left: 0.5rem;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;  
+}
+.dropdown i {
+    font-size: 1.8rem;
+    margin: 0;       
+    line-height: 1;   
+}
+
+.select-container img{
+max-width: 2rem;
+
+}
+.select-container{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+    width: 6rem;
+    border-radius: 0.5;
+    border: 1px solid rgb(137, 132, 130);
+}
+.select-container select {
+  font-size: 1rem;
+  width: auto;
+}
+
+.msg {
+  margin: 2rem 0 2rem 0;
+}
+
+form button {
+  height: 3rem;
+  background-color: hsl(231, 89%, 48%);
+  color: #fff;
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+.container {
+    position: relative;
+    padding:2rem;
+    border-radius: 2rem;
+    min-height: 20vh; 
+    width: 45vh;
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container.light-mode {
+    background-color: white;
+    color: #000;
+}
+.container.dark-mode {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+.mode-btn {
+    position: absolute; 
+    top: 10px;
+    left: 10px;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.9rem;
+     cursor: pointer;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: #af4d98;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.mode-btn:hover {
+    background-color: #922e7f;
+}
+.exchange-btn {
+    width: 100%;             
+    height: 2rem;
+    background-color: hsl(231, 89%, 48%);
+    color: #fff;
+    font-size: 1.15rem;
+    border: none;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    margin-top: 2rem;         
+}
+.result-box {
+    width: 95%;             
+    padding: 0.5rem;          
+    background-color: lab(77.06% 28.19 -8.12); 
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 1rem;          
+    font-weight: 600;
+    margin-top: 2rem;        
+    color: #000;
+    min-height: 1rem;          
+}
+.exchange-btn:hover {
+    background-color: hsl(231, 70%, 50%);
+}
+
+
+
+
