@@ -18,3 +18,4 @@ A simple **Currency Converter** web application that allows users to convert amo
 
 ## 📸 Screenshots
 ![image alt](https://github.com/madupojumounika/Currency-Converter/blob/fc9b4f634935352d34302528a401c7cdcb8c1c03/Screenshot.png)
+![image alt](https://github.com/madupojumounika/Currency-Converter/blob/605e5904195cd597f31c36c8f9d6ef27053d4481/Screenshot2.png)
