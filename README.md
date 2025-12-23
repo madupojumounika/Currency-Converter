@@ -14,4 +14,7 @@ A simple **Currency Converter** web application that allows users to convert amo
 - **HTML5** – 📄 Structure of the web page  
 - **CSS3** – 🎨 Styling and layout  
 - **JavaScript** – 💻 Currency conversion logic and API integration  
-- **Exchange Rate API** – 🔗 To fetch the latest currency rates  
+- **Exchange Rate API** – 🔗 To fetch the latest currency rates
+
+## 📸 Screenshots
+![image alt](https://github.com/madupojumounika/Currency-Converter/blob/fc9b4f634935352d34302528a401c7cdcb8c1c03/Screenshot.png)
